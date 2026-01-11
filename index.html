@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Azan | Creative Developer</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.7.0/dist/supabase.min.js"></script>
+<script src="script.js" defer></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+
+<body>
+<nav>
+  <div class="logo">Azan</div>
+  <div class="menu-toggle">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<section class="hero" id="home">
+  <div>
+    <h1>I’m <span>Azan</span></h1>
+    <p>
+      I build high-impact animated websites that don’t just look good —
+      they convert, impress and leave a mark.
+    </p>
+
+    <div class="stats">
+      <div class="stat"><h3>3+</h3><p>Years Experience</p></div>
+      <div class="stat"><h3>80+</h3><p>Projects</p></div>
+      <div class="stat"><h3>100%</h3><p>Happy Clients</p></div>
+    </div>
+  </div>
+
+  <img src="azan.jpeg" alt="Azan">
+</section>
+
+
+<section id="about">
+  <h2 class="about-title">About Me</h2>
+  
+  <p class="about-text">
+    Here is <span class="highlight">Azan</span>, a creative web developer who turns ideas into 
+    <span class="highlight">interactive, high-impact experiences</span>.  
+    I don’t just write code — I craft designs that think like humans, blending 
+    <span class="highlight">UI/UX design principles, responsive layouts, animations, and user behavior</span> 
+    to create websites that look stunning and perform flawlessly.
+  </p>
+
+  <p class="about-text">
+    Over the years, I’ve mastered 
+    <span class="highlight">front-end frameworks, design systems, version control, API integration, and animation libraries</span> 
+    to deliver projects that not only meet requirements but delight users and impress clients.  
+    My goal is to turn every project into a <span class="highlight">memorable digital experience</span>.
+  </p>
+
+  <p class="about-text">
+    Whether it’s building a landing page, a portfolio, or an interactive web app, I approach every challenge with 
+    <span class="highlight">creativity, precision, and passion</span>.  
+    I believe in continuous learning and pushing the boundaries of modern web development to <span class="highlight">stay ahead of the curve</span>.
+  </p>
+</section>
+
+
+<section id="projects">
+  <h2>My Projects</h2>
+  <div class="projects-grid">
+    <div class="project-card">
+      <div class="project-image">
+        <img src="Login.png" alt="Project 1 Screenshot">
+      </div>
+      <h3 class="heading">Signup System</h3>
+      <div class="link">
+      <a href="https://login-signup-animaition.vercel.app/" target="_blank" class="project-link">View Project</a>
+      </div>
+    </div>
+    <div class="project-card">
+      <div class="project-image">
+        <img src="Ai.png" alt="Project 2 Screenshot">
+      </div>
+      <h3 class="heading">AI-Assistant</h3>
+      <div class="link">
+      <a href="https://ai-model-odne.vercel.app/" target="_blank" class="project-link">View Project</a>
+      </div>
+    </div>
+
+    
+    <div class="project-card">
+      <div class="project-image">
+        <img src="calculator.png" alt="Project 3 Screenshot">
+      </div>
+      <h3 class="heading">Calculator</h3>
+      <div class="link">
+      <a href="https://complete-calculator-ten.vercel.app/" target="_blank" class="project-link">View Project</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="contact-container">
+
+    <div class="contact-left">
+      <h2>Let’s Work Together</h2>
+      <p>
+        Agar aapko modern, fast aur animated website chahiye  
+        jo logon ko impress kare — to aap bilkul sahi jagah aaye ho.
+      </p>
+
+      <div class="contact-info">
+        <p><strong>Email:</strong> azamazan91@gmail.com</p>
+        <p><strong>Phone:</strong> +92 3700365884</p>
+        <p><strong>Location:</strong> Pakistan</p>
+      </div>
+    </div>
+
+    <div class="contact-right">
+      <form id="contactForm">
+  <input type="text" placeholder="Your Name" />
+  <input type="email" placeholder="Your Email" />
+  <input type="text" placeholder="Subject" />
+  <textarea placeholder="Your Message"></textarea>
+  <button type="button" onclick="validateForm()">Send Message</button>
+
+</form>
+
+    </div>
+
+  </div>
+</section>
+
+
+<footer>
+  <div class="footer-container">
+    <div class="footer-logo">AZAN</div>
+
+    <p>© 2026 All Rights Reserved | Designed by Azan</p>
+
+    <div class="footer-links">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <div class="footer-socials">
+      <a href="https://www.instagram.com/dev_by_azan/" target="_blank" class="social-icon">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/azan-azam-34b517363/" target="_blank" class="social-icon">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="https://github.com/azaanazam" target="_blank" class="social-icon">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
